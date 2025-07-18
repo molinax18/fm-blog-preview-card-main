@@ -22,16 +22,16 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   style="display:inline-block;" />
 
 <img
-  src="./public/screenshots/blog-preview-card-small.png.png"
+  src="./public/screenshots/blog-preview-card-small.png"
   alt="Screenshot of the Blog preview card project in mobile size"
   width="400"
   height="auto"
   style="display:inline-block;" />
 
 ### Links
-- [Solution URL](https://github.com/molinax18/fm-qr-code-component)
+- [Solution URL](https://github.com/molinax18/fm-blog-preview-card-main)
 
-- [Live Site URL](https://molinax18.github.io/fm-qr-code-component/)
+- [Live Site URL](https://molinax18.github.io/fm-blog-preview-card-main/)
 
 ### Built with
 - Semantic HTML5 markup
