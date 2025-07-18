@@ -25,6 +25,17 @@
   --spacing-xs: 0.25rem;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
   color: var(--gray-500);
   font-family: var(--ff-figtree), sans-serif;
