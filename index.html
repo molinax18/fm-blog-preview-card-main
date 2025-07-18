@@ -15,33 +15,36 @@
   </head>
   <body>
     <main>
-      <article>
+      <article class="card flex-col">
         <img
+          class="card__illustration"
           src="./public/illustration-article.svg"
           alt="Article illustration"
         />
 
-        <section>
-          <div>
-            <span>Learning</span>
-            <span>Published 21 Dec 2023</span>
-          </div>
+        <section class="card__content flex-col">
+          <div class="card__details flex-col">
+            <span class="category">Learning</span>
+            <span class="card__publish-date">Published 21 Dec 2023</span>
 
-          <div>
-            <h3>HTML & CSS foundations</h3>
+            <h3 class="title">HTML & CSS foundations</h3>
 
             <p>
               These languages are the backbone of every website, defining
               structure, content, and presentation.
             </p>
           </div>
+
+          <footer class="card__footer">
+            <img
+              class="avatar"
+              src="./public/image-avatar.webp"
+              alt="User avatar"
+            />
+
+            <span class="card__username">Greg Hooper</span>
+          </footer>
         </section>
-
-        <footer>
-          <img src="./public/image-avatar.webp" alt="User avatar" />
-
-          <span>Greg Hooper</span>
-        </footer>
       </article>
     </main>
   </body>
